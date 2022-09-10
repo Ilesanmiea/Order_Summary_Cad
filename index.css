@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@200;500&family=Red+Hat+Text&display=swap');
+
+/* Setting all elements with zero values and border-box sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Using CSS Custom Properties to set colors and other variables */
+:root {
+  --body-background-color: rgb(224, 232, 255);
+  --container-content-color: rgb(255, 255, 255);
+  --inner-background-color: rgb(245, 247, 255);
+  --button-background-color: hsl(245, 75%, 52%);
+  --order-text-color: rgb(31, 47, 86);
+  --button-text-color: rgb(255, 255, 255);
+  --cancel-text-color: rgb(31, 47, 86,0.95);
+  --order-description-text-color: rgb(114, 128, 167);
+}
+
+/* The Background Image */
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: var(--body-background-color);
+}
+
+/* The general container styling */
+section {
+  display: flex;
+  font-family: 'Red Hat Text', sans-serif;
+}
+.container {
+  margin: auto;
+  transform: scale(0.8);
+  border-radius: 20px;
+  border-width: 2px;
+  font-family: 'Red Hat Text', sans-serif;
+}
+/* Giving my image border */
+#container-image img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Reducing the width of container of the Order Summary Card */
+.container, #container-image img{
+  width:350px;
+}
+#container-content {
+  background-color: var(--container-content-color);
+  margin-top: -10px;
+  padding: 40px 0px;
+  border-radius: 0 0 20px 20px;
+  font-family: 'Red Hat Text', sans-serif;
+}
+#container-content-one > h2 {
+  margin-bottom: 15px;
+  color:var(--order-text-color);
+  font-weight: 900;
+}
+#container-content-one {
+  text-align: center;
+  /* padding:20px; */
+}
+#order-description {
+color: var(--order-description-text-color);
+  width: 300px;
+  margin: auto;
+}
+
+#inner-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 20px;
+  padding: 20px;
+  background-color: var(--inner-background-color);
+  border-radius: 20px;
+  margin-top: 20px;
+  width:300px;
+  font-family: 'Red Hat Text', sans-serif;
+}
+#inner-container img {
+  background-color: var(--music-background-color);
+}
+#inner-container > a{
+  float: right;
+  font-weight:900;
+  font-size: 14px;
+  cursor: pointer;
+}
+#inner-container > a:hover{
+text-decoration: none;
+}
+
+#inner-container > div{
+  margin-left: -30px;
+}
+#inner-container > div  p{
+  color: var(--order-description-text-color);
+}
+
+button {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  width: calc(70% + 2.599em);
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 10px calc(5px + 30rem) 0px var(--button-background-color);
+cursor: pointer;
+font-family: 'Red Hat Text', sans-serif;
+}
+button:hover{
+  opacity: 0.8;
+}
+button + p {
+  color: var(--cancel-text-color);
+  font-weight:bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+div + a {
+  margin-top: 10px;
+  font-weight: 600;
+}
