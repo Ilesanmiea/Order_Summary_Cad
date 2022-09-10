@@ -110,6 +110,7 @@ button {
   box-shadow: 0px 10px calc(5px + 30rem) 0px var(--button-background-color);
 cursor: pointer;
 font-family: 'Red Hat Text', sans-serif;
+  font-weight:800;
 }
 button:hover{
   opacity: 0.8;
