@@ -24,10 +24,12 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 This challenge requires me to ensure that users should be able to use hover states for interactive elements which I was able to complete using the Pseudo-Selectors(:hover) precisely for the affected elements as shown in the designs.
 
 ### Screenshot
-**Desktop View**
+**Mobile View**
+
 ![](./images/Screenshot%202022-09-10%20at%2000-56-36%20Frontend%20Mentor%20Order%20summary%20card.png)
 
-**Mobile View**
+** Desktop View**
+
 ![](./images/Screenshot%202022-09-10%20at%2000-55-09%20Frontend%20Mentor%20Order%20summary%20card.png)
 
 
