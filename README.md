@@ -35,8 +35,8 @@ This challenge requires me to ensure that users should be able to use hover stat
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-card-challenge-p3B5TGIHQk)
+- Live Site URL: [Add live site URL here](https://ordercad.netlify.app/)
 
 ## My process
 
@@ -47,7 +47,7 @@ This challenge requires me to ensure that users should be able to use hover stat
 - Flexbox
 
 ### What I learned
-- I am happy to complete this project because it has helped me to upgrade my CSS learning. This is my first ever project using the CSS Custom Properties.  After Studying CSS variables, I took it on practically by using its application on this **Order Card Sumary Project** and it was to me inrtelligence catching fun.
+- I am happy to complete this project because it has helped me to upgrade my CSS learning. This is my first ever project using the CSS Custom Properties.  After Studying CSS variables, I took it on practically by using its application on this **Order Card Sumary Project** and it was to me intelligence catching fun.
 
 -In addition to this, personally I learnt 12 ways to be able to center a div in CSS which was very fun to me using `parent div` and also `child div` on `HTML`.
 **These are snippets of codes that I personally put on this.**
