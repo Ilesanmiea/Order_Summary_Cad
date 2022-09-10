@@ -21,7 +21,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Overview
 
 ### The challenge
-This challenge requires me to ensure that users should be able to use hover states for interactive elements which I was able to complete using the Pseudo-Selectors(:hover) precisely for the affected elements as shown in the designs.
+This challenge requires me to ensure that users should be able to use hover states for interactive elements which I was able to complete using the Pseudo-Selectors `(:hover)`  precisely for the affected elements as shown in the designs.
 
 ### Screenshot
 **Mobile View**
