@@ -20,7 +20,7 @@
 
 /* The Background Image */
 body {
-  background-size:cover ;
+  background-size:100% ;
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: repeat-x;
   background-color: var(--body-background-color);
